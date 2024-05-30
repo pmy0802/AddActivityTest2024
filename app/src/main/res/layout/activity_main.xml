@@ -7,11 +7,27 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radioSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Second Activity"/>
+        <RadioButton
+            android:id="@+id/radioThird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Third Activity"/>
+    </RadioGroup>
+
     <Button
         android:id="@+id/btnMain"
         android:layout_margin="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SecondActivity 실행"/>
+        android:text="선택한 화면 바꾸기"/>
 
 </LinearLayout>
